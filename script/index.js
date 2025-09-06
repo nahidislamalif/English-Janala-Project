@@ -27,7 +27,7 @@ const displayLevelWord = (words) => {
     card.innerHTML = `
         <div class="bg-white rounded-xl shadow-md text-center py-10 px-5 space-y-4">
         <h2 class="font-bold text-2xl">${word.word}</h2>
-        <p class="font-semibold">Meaning / pronounciation</p>
+        <p class="font-semibold">Meaning / pronunciation</p>
         <div class="text-2xl font-bangla font-medium">${word.meaning} / ${word.pronunciation}</div>
         <div class="flex justify-between items-center">
           <button class="btn bg-[#1A91FF10] hover:bg-[#1A91FF90]"><i class="fa-solid fa-circle-info"></i></button>
